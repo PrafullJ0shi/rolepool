@@ -55,7 +55,7 @@ def weekly(weeks: int = 20):
 def banner(theme: str, serif, italic, mono, meta, bars) -> str:
     t = THEMES[theme]
     W, H = 1280, 320
-    word, ww = outline(serif, "Role Tape", 104, 72, 168)
+    word, ww = outline(serif, "Rolepool", 104, 72, 168)
     sub, _ = outline(italic, "crypto hiring, swept daily from official job feeds", 30, 72, 222)
     strip_txt = (f"{meta['jobs']:,} OPEN ROLES   {meta['employers_total']:,} EMPLOYERS   "
                  f"{meta['companies_ok']} COMPANY BOARDS   {len(meta['boards'])} JOB BOARDS   DAILY SWEEP")
@@ -70,7 +70,7 @@ def banner(theme: str, serif, italic, mono, meta, bars) -> str:
         color = t["accent"] if i == len(bars) - 1 else t["ink"]
         rects.append(f'<rect x="{bx + i * step + 1:.1f}" y="{by + bh - h:.1f}" width="{step - 4:.1f}" height="{h:.1f}" fill="{color}"/>')
     cap, _ = outline(italic, "new roles a week, by posting date", 17, bx, by + bh + 28)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Role Tape: crypto hiring, swept daily from official job feeds">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Rolepool: crypto hiring, swept daily from official job feeds">
 <rect width="{W}" height="{H}" fill="{t['paper']}"/>
 <rect x="72" y="40" width="{W - 144}" height="1.5" fill="{t['ink']}"/>
 <path d="{word}" fill="{t['ink']}"/>

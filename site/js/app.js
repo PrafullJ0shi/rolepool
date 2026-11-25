@@ -1,4 +1,4 @@
-/* Role Tape front end. No framework, no build step. Reads data/*.json written by app/sweep.py. */
+/* Rolepool front end. No framework, no build step. Reads data/*.json written by app/sweep.py. */
 (function () {
   "use strict";
   // Column order of data/jobs.json rows (see site_job in app/sweep.py)
@@ -12,7 +12,7 @@
   const WORKPLACES = ["remote", "hybrid", "onsite", "unknown"];
   const BOARD_LABEL = { cryptocurrencyjobs: "Cryptocurrency Jobs", cryptojobslist: "CryptoJobsList", remoteok: "Remote OK", remotive: "Remotive", himalayas: "Himalayas" };
   const ATS_LABEL = { greenhouse: "Greenhouse", lever: "Lever", "lever-eu": "Lever EU", ashby: "Ashby", workable: "Workable", smartrecruiters: "SmartRecruiters", recruitee: "Recruitee" };
-  const REPO = "https://github.com/PrafullJ0shi/role-tape";
+  const REPO = "https://github.com/PrafullJ0shi/rolepool";
   const PAGE = 100;
 
   const $ = (s, r = document) => r.querySelector(s);

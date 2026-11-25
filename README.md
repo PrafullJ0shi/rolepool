@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-light.svg">
-    <img src="docs/banner-light.svg" alt="Role Tape: crypto hiring, swept daily from official job feeds. A small bar chart shows new roles per week by posting date." width="100%">
+    <img src="docs/banner-light.svg" alt="Rolepool: crypto hiring, swept daily from official job feeds. A small bar chart shows new roles per week by posting date." width="100%">
   </picture>
 </p>
 
@@ -10,7 +10,7 @@
 <p align="center">Engineering to legal, support to trading. Official ATS feeds and public job-board feeds, one schema, one formula layer, one static site.</p>
 
 <p align="center">
-  <a href="https://prafullj0shi.github.io/role-tape/"><img alt="Live site" src="https://img.shields.io/badge/live-site-B23A1E?style=flat-square&labelColor=111111"></a>
+  <a href="https://prafullj0shi.github.io/rolepool/"><img alt="Live site" src="https://img.shields.io/badge/live-site-B23A1E?style=flat-square&labelColor=111111"></a>
   <a href="#latest-sweep"><img alt="Sweep: daily, 03:17 UTC" src="https://img.shields.io/badge/sweep-daily%2003%3A17%20UTC-4A4A45?style=flat-square&labelColor=111111"></a>
   <a href="#sources"><img alt="Sources: 199 company boards and 5 job boards" src="https://img.shields.io/badge/sources-199%20boards%20%2B%205%20feeds-4A4A45?style=flat-square&labelColor=111111"></a>
   <a href="tests"><img alt="Tests: 103, no network" src="https://img.shields.io/badge/tests-103%2C%20no%20network-4A4A45?style=flat-square&labelColor=111111"></a>
@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="https://prafullj0shi.github.io/role-tape/"><b>Open the board</b></a> ·
+  <a href="https://prafullj0shi.github.io/rolepool/"><b>Open the board</b></a> ·
   <a href="#formulas">Formulas</a> ·
   <a href="#pipeline">Pipeline</a> ·
   <a href="#feeds-and-alerts">Feeds and alerts</a> ·
@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/screenshot-board-light.png" alt="The Board view: a figures strip, the tape of new roles, filters for family, level, workplace, region, country, salary and source, and the table of open roles with margin notes and facet bars." width="100%">
+  <img src="docs/screenshot-board-light.png" alt="The Board view: a figures strip, the list of new roles, filters for family, level, workplace, region, country, salary and source, and the table of open roles with margin notes and facet bars." width="100%">
 </p>
 
 ## What it is

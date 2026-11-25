@@ -13,7 +13,7 @@ One question per view:
 | Feeds | How do I hear about new roles without checking the page every day? |
 | Method | How is each number on this site computed, and where can it be wrong? |
 
-The board is the page. Filters and the "new this sweep" tape sit in the first viewport. There is no hero, no tagline, no illustration.
+The board is the page. Filters and the "new this sweep" list sit in the first viewport. There is no hero, no tagline, no illustration.
 
 ## 2. Reference points
 

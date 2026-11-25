@@ -1,4 +1,4 @@
-/* Role Tape. Tokens follow DESIGN.md exactly. */
+/* Rolepool. Tokens follow DESIGN.md exactly. */
 @font-face { font-family: "ET Book"; src: url("fonts/et-book-roman.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
 @font-face { font-family: "ET Book"; src: url("fonts/et-book-italic.woff") format("woff"); font-weight: 400; font-style: italic; font-display: swap; }
 @font-face { font-family: "ET Book"; src: url("fonts/et-book-bold.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
@@ -68,7 +68,7 @@ p { margin: 0 0 var(--s3); max-width: 68ch; }
 .rail h4 { font-style: normal; font-weight: 700; color: var(--ink); font-size: var(--t-sm); margin: var(--s5) 0 var(--s2); }
 @media (max-width: 1100px) { .with-rail { grid-template-columns: 1fr; } .figs { grid-template-columns: repeat(3, 1fr); } .figs div:nth-child(4) { border-left: 0; padding-left: 0; } }
 
-/* tape of new roles */
+/* list of new roles */
 .tape { list-style: none; margin: 0 0 var(--s5); padding: 0; columns: 3 300px; column-gap: var(--s5); font-size: var(--t-sm); }
 .tape li { break-inside: avoid; padding: var(--s1) 0; border-bottom: 1px solid var(--rule); display: flex; gap: var(--s2); align-items: baseline; }
 .tape .co { color: var(--ink-2); }

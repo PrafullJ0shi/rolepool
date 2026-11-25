@@ -3,9 +3,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-BRAND = "Role Tape"
-REPO_URL = "https://github.com/PrafullJ0shi/role-tape"
-SITE_URL = "https://prafullj0shi.github.io/role-tape/"
+BRAND = "Rolepool"
+REPO_URL = "https://github.com/PrafullJ0shi/rolepool"
+SITE_URL = "https://prafullj0shi.github.io/rolepool/"
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -13,7 +13,7 @@ SITE = ROOT / "site"
 CACHE = ROOT / ".http-cache"
 
 USER_AGENT = (
-    "RoleTapeBot/0.1 (+https://github.com/PrafullJ0shi/role-tape; "
+    "RolepoolBot/0.1 (+https://github.com/PrafullJ0shi/rolepool; "
     "daily sweep of public job feeds; contact via GitHub issues)"
 )
 

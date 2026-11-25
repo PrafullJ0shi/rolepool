@@ -16,7 +16,7 @@ def _entry(j: dict) -> str:
         "<entry>"
         f"<title>{escape(j['title'])} — {escape(j['company'])}</title>"
         f"<link href=\"{escape(j['url'])}\"/>"
-        f"<id>urn:roletape:{j['key']}</id>"
+        f"<id>urn:rolepool:{j['key']}</id>"
         f"<updated>{j.get('opened_at') or j['first_seen']}</updated>"
         f"<published>{j.get('posted_at') or j['first_seen']}</published>"
         f"<category term=\"{escape(j['family'])}\"/>"
@@ -47,7 +47,7 @@ def flips_atom(flips: list[dict], updated: str) -> str:
             "<entry>"
             f"<title>{escape(f['company'])}: {f['from']} → {f['to']}</title>"
             f"<link href=\"{escape(f.get('board') or config.SITE_URL)}\"/>"
-            f"<id>urn:roletape:flip:{slugify(f['company'])}:{f['at']}</id>"
+            f"<id>urn:rolepool:flip:{slugify(f['company'])}:{f['at']}</id>"
             f"<updated>{f['at']}</updated>"
             f"<summary>{escape(f['why'])}</summary>"
             "</entry>")

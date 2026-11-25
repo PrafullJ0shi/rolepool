@@ -26,7 +26,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: role-tape-sweep
+  group: rolepool-sweep
   cancel-in-progress: false
 
 jobs:
