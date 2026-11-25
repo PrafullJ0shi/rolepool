@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Role Tape · crypto hiring, swept daily</title>
+<meta name="description" content="Open crypto and web3 roles of every type, swept daily from companies' official job feeds and crypto job boards. Hiring trends, new-role feeds and published salaries.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="Role Tape: all new roles" href="feed/all.xml">
+<link rel="preload" href="fonts/et-book-roman.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="fonts/IBMPlexMono-Regular-Latin1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <h1 class="wordmark">Role Tape<span class="rule" aria-hidden="true"></span><small>crypto hiring, swept daily</small></h1>
+      <nav class="tabs" aria-label="Views">
+        <a href="#board" data-view="board"><span class="n">1</span>Board</a>
+        <a href="#trends" data-view="trends"><span class="n">2</span>Trends</a>
+        <a href="#feeds" data-view="feeds"><span class="n">3</span>Feeds &amp; alerts</a>
+        <a href="#method" data-view="method"><span class="n">4</span>Method</a>
+      </nav>
+    </div>
+    <div class="stamp" id="stamp">Loading the last sweep…</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- 1 BOARD -->
+  <section class="view" id="view-board" aria-labelledby="h-board">
+    <h2 id="h-board" class="sr">Board</h2>
+    <div class="banner-note" id="watch-note"></div>
+    <div class="figs" id="figs"></div>
+    <div class="with-rail">
+      <div>
+        <h3><span class="n">1.1</span>New since the previous sweep</h3>
+        <ol class="tape" id="tape"></ol>
+
+        <h3><span class="n">1.2</span>All open roles</h3>
+        <form class="filters" id="filters" onsubmit="return false">
+          <label>search<input type="search" id="f-q" placeholder="title, company, place" autocomplete="off"></label>
+          <label>role family<select id="f-family"></select></label>
+          <label>level<select id="f-seniority"></select></label>
+          <label>workplace<select id="f-workplace"></select></label>
+          <label>region<select id="f-region"></select></label>
+          <label>country<select id="f-country"></select></label>
+          <label>salary, USD/yr<select id="f-salary">
+            <option value="">any</option><option value="listed">published only</option>
+            <option value="50000">≥ 50k</option><option value="100000">≥ 100k</option>
+            <option value="150000">≥ 150k</option><option value="200000">≥ 200k</option><option value="250000">≥ 250k</option>
+          </select></label>
+          <label>source<select id="f-source"><option value="">all sources</option><option value="ats">company boards</option><option value="board">job boards</option></select></label>
+          <label>sort<select id="f-sort">
+            <option value="new">newest first</option><option value="salary">salary, high to low</option>
+            <option value="fresh">freshness</option><option value="company">company A–Z</option>
+          </select></label>
+          <div class="checks">
+            <label><input type="checkbox" id="f-new"> new (3 days)</label>
+            <label><input type="checkbox" id="f-noghost"> hide likely stale</label>
+          </div>
+        </form>
+        <div class="result-line">
+          <span id="count">–</span>
+          <span><button type="button" id="watch-btn" title="Remember this filter and flag matches that appear after today">Watch this filter</button> · <a id="filter-feed" href="feed/all.xml">Atom feed for this view</a> · <button type="button" id="clear">Clear filters</button></span>
+        </div>
+        <table class="jobs" id="jobs">
+          <thead><tr>
+            <th aria-label="new"></th><th>Role · company</th><th>Family</th><th>Level</th><th>Where</th>
+            <th class="num">USD/yr</th><th class="num" title="posted date from the ATS when sent, else first seen by the sweep">Since</th>
+            <th class="num" title="Freshness 0–100">Fresh</th><th class="num" title="Ghost-job score 0–100 (heuristic)">Ghost</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="more"><button type="button" id="more">Show 100 more</button></div>
+      </div>
+      <aside class="rail" aria-label="Notes and facets">
+        <div class="note"><sup>1</sup> “Since” is the posting date when the employer’s system sends one, otherwise the day this sweep first saw the role. The first sweep could not know older start dates, so those roles show their first-seen day.</div>
+        <div class="note"><sup>2</sup> Salaries appear only when the employer or board published them, converted to USD a year at the ECB rate of the sweep day.</div>
+        <div class="note"><sup>3</sup> Ghost is a heuristic for roles that may no longer be filled: old, reposted, evergreen “talent pool” titles, or a frozen company. See Method.</div>
+        <h4>Role family</h4><ul class="bars" id="facet-family"></ul>
+        <h4>Region</h4><ul class="bars" id="facet-region"></ul>
+        <h4>Workplace</h4><ul class="bars" id="facet-workplace"></ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 2 TRENDS -->
+  <section class="view" id="view-trends" aria-labelledby="h-trends">
+    <h2 id="h-trends"><span class="n">2</span>Who is hiring, who is freezing</h2>
+    <p class="lede" id="trend-lede"></p>
+    <div class="figs" id="trend-figs"></div>
+    <div class="grid-2">
+      <figure id="fig-open"></figure>
+      <figure id="fig-backfill"></figure>
+    </div>
+    <h3><span class="n">2.1</span>Companies by Hiring Momentum</h3>
+    <div class="result-line">
+      <span id="ccount">–</span>
+      <span>
+        <label class="mono">state <select id="c-state" class="mono"><option value="">all</option><option>HIRING</option><option>STEADY</option><option>COOLING</option><option>FROZEN</option><option>CHECK-BOARD</option></select></label>
+        <label class="mono"> · search <input id="c-q" type="search" class="mono" size="14"></label>
+      </span>
+    </div>
+    <table id="companies">
+      <thead><tr>
+        <th class="sortable" data-k="name">Company</th><th class="sortable" data-k="state">State</th>
+        <th class="sortable num" data-k="H" title="Hiring Momentum, −100 to +100">H</th><th class="sortable num" data-k="open">Open</th>
+        <th title="Weekly opens by employer posting date, last 9 weeks">Opens, 9 wk</th>
+        <th class="sortable num" data-k="new_7d">New 7d</th><th class="sortable num" data-k="closed_7d">Closed 7d</th>
+        <th class="sortable num" data-k="net_30d">Net 30d</th><th class="sortable num" data-k="delta_7d" title="Change in open roles over 7 days">Δ 7d</th>
+        <th class="sortable num" data-k="delta_30d" title="Change in open roles over 30 days">Δ 30d</th><th class="sortable num" data-k="days_since_new">Days since new</th>
+        <th>Top family</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <div class="more"><button type="button" id="cmore">Show all companies</button></div>
+    <h3><span class="n">2.2</span>Twelve strongest movers</h3>
+    <div class="multiples" id="multiples"></div>
+    <p class="fig-cap" id="mult-cap"></p>
+    <div class="grid-2">
+      <figure id="fig-family"></figure>
+      <figure id="fig-region"></figure>
+    </div>
+    <h3><span class="n">2.3</span>Recent state changes</h3>
+    <table id="flips"><thead><tr><th>When (UTC)</th><th>Company</th><th>From</th><th>To</th><th>Why</th></tr></thead><tbody></tbody></table>
+  </section>
+
+  <!-- 3 FEEDS -->
+  <section class="view" id="view-feeds" aria-labelledby="h-feeds">
+    <h2 id="h-feeds"><span class="n">3</span>Feeds and opt-in alerts</h2>
+    <p>Nothing here needs an account, an email address or a paid service. Pick one of three ways to hear about new roles.</p>
+    <h3><span class="n">3.1</span>Atom feeds</h3>
+    <p>Each feed lists up to 200 roles, newest first by posting date (or first-seen date), and refreshes after every daily sweep. Paste a URL into any feed reader.</p>
+    <table class="feedlist" id="feedlist"><thead><tr><th>Feed</th><th class="num">Roles now</th><th>URL</th></tr></thead><tbody></tbody></table>
+    <h3><span class="n">3.2</span>GitHub watch alerts</h3>
+    <p>The repository keeps one open issue per role family, titled <code>Alerts: Engineering</code>, <code>Alerts: Marketing</code> and so on. After each sweep the workflow posts the day’s new roles in that family as a comment, using the repository’s own token. Open the issue and press <i>Subscribe</i>; GitHub then emails or notifies you with each digest. Unsubscribe the same way.</p>
+    <p id="gh-alerts-link"></p>
+    <h3><span class="n">3.3</span>Watch a filter in this browser</h3>
+    <p>On the Board, set any filters and press <i>Watch this filter</i>. The filter is kept in this browser only (local storage). On your next visit the board opens with that filter and a line saying how many matching roles are new since you last looked.</p>
+    <h3><span class="n">3.4</span>Source health, this sweep</h3>
+    <table id="board-health"><thead><tr><th>Job board</th><th>Status</th><th class="num">Items read</th><th class="num">Kept as crypto</th><th>Terms we follow</th></tr></thead><tbody></tbody></table>
+    <p class="fig-cap" id="ats-health"></p>
+    <table id="ats-failed"><thead><tr><th>Company board</th><th>ATS</th><th>Error</th></tr></thead><tbody></tbody></table>
+  </section>
+
+  <!-- 4 METHOD -->
+  <section class="view method" id="view-method" aria-labelledby="h-method">
+    <h2 id="h-method"><span class="n">4</span>Method</h2>
+    <p class="lede">How each number on this site is made, and where it can be wrong. The same text, with the code paths, is in the repository README.</p>
+
+    <h3><span class="n">4.1</span>Sources</h3>
+    <p>Two kinds of source, both public and both read with a named User-Agent, at most two requests a second per host, retries with back-off on 429 and 5xx, and an ETag cache.</p>
+    <ol>
+      <li><b>Company boards.</b> The official job-board APIs that applicant tracking systems publish for exactly this use: Greenhouse <code>boards-api</code>, Lever <code>postings</code>, Ashby <code>posting-api</code>, Workable widget, SmartRecruiters <code>postings</code> and Recruitee <code>offers</code>. The list of boards is in <code>data/companies.yml</code>: seeded from the public company list of crypto-jobs-fyi/crawler and extended by probing a few hundred more crypto firms, keeping only boards whose postings read as crypto.</li>
+      <li><b>Job boards.</b> Crypto job boards and remote boards that publish an RSS feed or API, used under their stated terms (link back, name the source, call limits). Items from general remote boards are kept only if they pass the crypto keyword test (relevance ≥ 2: a strong term such as <i>blockchain</i>, <i>stablecoin</i> or <i>DeFi</i> counts 1, a weak one such as <i>wallet</i> or <i>token</i> counts 0.5).</li>
+    </ol>
+    <p>Not used: LinkedIn, Indeed, Glassdoor, Wellfound and any site whose terms forbid automated access, plus any board that needs an API key.</p>
+    <table id="source-table"><thead><tr><th>Source</th><th class="num">Roles on board now</th></tr></thead><tbody></tbody></table>
+
+    <h3><span class="n">4.2</span>One opening, one row</h3>
+    <div class="formula">url′  = https + lower(host) + path without trailing “/”, minus utm_*, gh_src, ref, source, lever-source, fbclid, gclid
+key   = sha1( company‾ | title‾ | place )[0:16]
+company‾ = lower(company) − legal suffix (Inc, Ltd, GmbH, AG…) − TLD (.com, .io, .xyz…), letters and digits only
+title‾   = lower(title) − (bracketed text) − {remote, hybrid, full-time, contract…}; sr→senior, jr→junior, eng→engineer, &amp;→and
+place    = sorted country codes (max 3) | “remote” | “any”</div>
+    <p>Exact key matches collapse into one row. A job-board item is merged into a company’s own posting when the company names match after also removing words such as <i>Labs</i>, <i>Foundation</i> or <i>Network</i>, and the titles are equal or have a token Jaccard similarity of at least 0.85. The company’s own posting wins; the board is listed under “also on”.</p>
+
+    <h3><span class="n">4.3</span>Detection</h3>
+    <dl class="defs">
+      <dt>salary</dt><dd>Structured pay fields first (Ashby compensation, Lever salaryRange, Recruitee, Remote OK, Himalayas). Otherwise the first currency-marked range in the listed salary text or description, e.g. “$120,000 – $150,000”, “€80k–100k”, “CHF 120’000”, “12–18 LPA”. Period from nearby words (per hour, monthly, p.a.); annualised with hour×2080, day×260, week×52, month×12; converted to USD at the ECB rate; dropped outside 8k–1.5M USD.</dd>
+      <dt>workplace</dt><dd>The ATS field when present (Lever, Ashby, SmartRecruiters, Recruitee, Workable). Otherwise “hybrid”, “remote/anywhere/worldwide/distributed” or “on-site” in the title or location; a named place with no such word counts as on-site; nothing at all is “unknown”.</dd>
+      <dt>country, region</dt><dd>A fixed table of countries, US states and about 220 cities maps to ISO codes, then to North America, Latin America, Europe, Middle East &amp; Africa or Asia-Pacific. Words such as EMEA, APAC, LATAM add regions. Remote with no place is “Global”.</dd>
+      <dt>level</dt><dd>Title rules in order: Intern, Executive (chief, VP, president, general counsel), Director (director, head of), Staff+ (staff, principal, architect), Manager (engineering manager, team lead, lead), Senior, Entry (junior, graduate, associate), Mid. No marker reads as Mid.</dd>
+      <dt>role family</dt><dd>Fifteen families from title keyword rules in a fixed order (security before engineering, design before product, sales engineer before engineer), then the department name, else Other.</dd>
+    </dl>
+
+    <h3><span class="n">4.4</span>Opened, closed, reposted</h3>
+    <div class="formula">opened   key present now, absent from state (or closed in state)
+closed   key open in state, absent now, AND its source fetched without error this sweep
+repost   a key reopens within 90 days of closing → reposts + 1
+opened_at = ATS posting date if sent, else first-seen time; unknown for roles already open at the first sweep of a board</div>
+    <p>A board that fails to load never produces closes. Its roles stay open and the company is marked CHECK-BOARD until it loads again.</p>
+
+    <h3><span class="n">4.5</span>Hiring Momentum, H</h3>
+    <div class="formula">r_d  = (O_d − C_d) / max(N_{d−1}, 5)                    daily net-open rate
+M    = Σ_{a=0..29} w_a · r_{t−a} / Σ w_a,  w_a = 2^(−a/7)     30-day decayed mean, 7-day half-life
+x    = asinh(M / 0.01)                                    tames the long right tail
+z_own = (x − mean(x_hist)) / (sd(x_hist) + 0.05)           against the company’s own past
+z_xs  = (x − median(x_all)) / max(1.4826 · MAD(x_all), 0.5) against all companies today
+s    = n / (n + 14)                                        n = days of own history
+z    = s · z_own + (1 − s) · z_xs,  clipped to [−6, 6]
+H    = 100 · tanh(z / 3)                                   −100 … +100</div>
+    <p>O<sub>d</sub> counts roles whose opened_at falls on day d, which lets posting dates fill the first weeks before the sweep has its own history; C<sub>d</sub> counts closes seen by the sweep. Early on H leans on the cross-section; after two weeks of daily sweeps, own history carries half the weight.</p>
+
+    <h3><span class="n">4.6</span>Freeze detector</h3>
+    <div class="formula">CHECK-BOARD  board failed this sweep, or dropped to 0 open after &gt; 0 (until 2 zero sweeps in a row)
+FROZEN       board read fine and 0 roles open (after the CHECK-BOARD grace)
+             or days since a new role ≥ 21 AND open ≤ 70% of its 30-day max
+             or days since a new role ≥ 60
+HIRING       H ≥ 25 AND new roles in 7 days ≥ 2
+COOLING      H ≤ −25, or net 30-day opens &lt; 0 AND days since a new role ≥ 10
+STEADY       everything else</div>
+    <p>Rules are checked top to bottom. Every change of state is written to <code>feed/flips.xml</code>.</p>
+
+    <h3><span class="n">4.7</span>Freshness and ghost-job score</h3>
+    <div class="formula">age  = now − opened_at   (or first seen, when opened_at is unknown)
+F    = 100 · e^(−age/30)
+
+G    = 100 · (1 − Π (1 − p_i))
+p_age       = 0.6 · σ((age − 60) / 15)
+p_repost    = min(0.5, 0.25 · reposts)
+p_evergreen = 0.5 if the title reads “general application”, “talent pool”, “future opportunities”…
+p_thin      = 0.15 if the company posting has under 300 characters of description
+p_company   = 0.3 if the company is FROZEN, 0.15 if COOLING
+bands: G &lt; 25 low · 25–50 watch · ≥ 50 likely stale (hidden by “hide likely stale”)</div>
+    <p>G is a heuristic, not a verdict. A long-open senior role can be real; a fresh evergreen post can be a talent pool.</p>
+
+    <h3><span class="n">4.8</span>Limits</h3>
+    <ul>
+      <li>First seen is not posted. Before the first sweep, only the employer’s own posting date is known.</li>
+      <li>Coverage is the company list plus five boards. Firms on custom careers sites or on Workday are not swept.</li>
+      <li>Mixed companies (a broker or payments firm with a crypto arm) are filtered to postings that read as crypto, which can miss a role that never names the field.</li>
+      <li>Remote OK, Remotive and Himalayas are general boards; their items pass a keyword test that can let a forex or fintech role through.</li>
+      <li>Rules are English-first; titles in other languages fall back to department names.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p id="foot-sources"></p>
+    <p>Built on the idea of <a href="https://github.com/crypto-jobs-fyi/crawler">crypto-jobs-fyi/crawler</a> (Apache 2.0); this is independent code. Job listings belong to their employers and boards; every link goes to the original posting. Not affiliated with any company listed. <button class="theme-btn" id="theme">Switch theme</button></p>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>

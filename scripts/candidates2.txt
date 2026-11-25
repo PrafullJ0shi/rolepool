@@ -1,0 +1,113 @@
+Kraken Digital Asset Exchange | payward
+Bitstamp USA | bitstampusa
+Anchorage Digital Bank | anchorage-digital
+Paxos Trust | paxostrust
+Fireblocks Labs | fireblockslabs
+Alchemy Pay | alchemypay
+MoonPay Labs | moonpaylabs
+Arbitrum Foundation | arbitrum
+Optimism Foundation | optimism,optimismfoundation
+Uniswap Foundation | uniswapfoundation
+Aave Labs | avara-labs
+Lido Labs | lidolabs
+EigenFoundation | eigenfoundation
+Celo Foundation | celofoundation
+Polygon Foundation | polygonfoundation
+NEAR AI | nearai
+Aptos Foundation | aptosfoundation
+Sui Foundation | suifoundation
+Hyperliquid Labs | hyperliquidlabs
+Jupiter Labs | jupiterlabs
+Raydium | raydium
+Orca | orcaso
+Phantom Technologies | phantomtech
+Coinbase Ventures | coinbaseventures
+Base | basexyz
+Worldcoin Foundation | worldfoundation
+Chainlink Foundation | chainlinkfoundation
+Smart Contract Research Forum | scrf
+Messari Inc | messariinc
+Nansen AI | nansenai
+Dune Analytics | duneanalytics
+Allium | allium
+Flipside Crypto | flipsidecrypto,flipside
+Footprint Analytics | footprint
+Space and Time | spaceandtime
+Sentora | sentora,intotheblock
+Block Analitica | blockanalitica
+Gauntlet Networks | gauntletnetworks
+Wintermute | wintermute
+GSR | gsr
+Cumberland DRW | cumberlanddrw
+Jane Street Crypto | janestreet
+Galaxy Digital | galaxydigital
+Pantera Capital | panteracapitalmgmt
+Bain Capital Crypto | baincapitalcrypto
+Multicoin Capital | multicoincap
+Hack VC | hackvc
+Dragonfly | dragonfly
+Paradigm Operations | paradigmops
+Fortress Blockchain | fortress
+Bitcoin Magazine | btcinc,bitcoinmagazine
+The Defiant | thedefiant
+Unchained Capital | unchainedcap
+Strike | strikeapp,zaphq
+Galoy | galoy,blink
+Cash App Bitcoin | cashapp
+Kraken Ventures | krakenventures
+Bitpanda Technology | bitpandatech
+Crypto Finance AG | cryptofinance
+Sygnum Bank | sygnumbank
+Bitcoin Suisse | bitcoinsuisse
+SEBA Bank | sebabank
+Boerse Stuttgart Digital | bsdigital,boersestuttgartdigital
+21.co | 21co
+Bitfury | bitfury
+Blockchain.com | blockchaincom
+Uphold Inc | upholdinc
+Wirex | wirex
+Crypto.com Exchange | cryptocomexchange
+Revolut Crypto | revolut
+eToro | etoro
+Bitpay Inc | bitpayinc
+NOWPayments | nowpayments
+CoinGate | coingate
+Paybis | paybis
+Changelly | changelly
+Bitrue | bitrue
+WhiteBIT | whitebit
+Bitfinex | bitfinexcareers
+Kraken Recruiting | krakenrecruiting
+Animoca Ventures | animocaventures
+Immutable X | immutablex
+Ronin | ronin
+Pixels | pixels
+Parallel | parallel,parallelstudios
+Illuvium | illuvium
+Shrapnel | shrapnel,neon
+Off The Grid | gunzilla
+Mysten | mysten
+Aleo Network Foundation | aleofoundation
+Midnight Foundation | midnight
+Input Output | iohk,inputoutput
+Shielded Labs | shieldedlabs
+Zcash Foundation | zcashfoundation
+Filecoin | filecoin
+Storacha | storacha
+Ceramic | ceramic,3box
+Fileverse | fileverse
+XMTP | xmtp,xmtplabs
+Farcaster | farcasterxyz
+Privy Inc | privyio
+Alchemy Insights | alchemyinsights
+QuickNode Inc | quicknodeinc
+Infura | infura
+Tatum | tatum
+Chainstack | chainstack
+Blockpour | blockpour
+Rated | rated,ratedlabs
+Obol | obol,obolnetwork
+SSV Labs | ssvlabs
+Stakefish | stakefish
+Figment Networks | figmentnetworks
+Coinbase Cloud | coinbasecloud

@@ -1,0 +1,7 @@
+{"apiVersion": "1", "jobs": [
+ {"id": "993", "title": "Senior Analytics Engineer", "department": "Data", "location": "United States", "secondaryLocations": [], "isListed": true,
+  "isRemote": true, "workplaceType": "Remote", "publishedAt": "2026-10-16T10:44:16.327+00:00", "jobUrl": "https://jobs.ashbyhq.com/acme/993",
+  "descriptionPlain": "Crypto exchange.", "address": {"postalAddress": {"addressCountry": "United States"}},
+  "compensation": {"scrapeableCompensationSalarySummary": "$110.4K - $220.8K", "compensationTiers": [{"components": [
+   {"compensationType": "Salary", "interval": "1 YEAR", "currencyCode": "USD", "minValue": 110400, "maxValue": 220800}]}]}},
+ {"id": "994", "title": "Hidden", "isListed": false, "jobUrl": "https://jobs.ashbyhq.com/acme/994"}]}

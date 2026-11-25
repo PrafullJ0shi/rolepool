@@ -1,0 +1,407 @@
+# Extra crypto / web3 companies to probe on public ATS boards. One name per line.
+# Format: Display Name | optional comma-separated slugs to try
+Coinbase | coinbase
+Gemini | gemini
+Bitstamp | bitstamp
+Bitso | bitso
+BitMEX | bitmex,hdr
+Deribit | deribit
+Bullish | bullish
+Bakkt | bakkt
+KuCoin | kucoin
+Bitget | bitget
+MEXC | mexc
+Bitvavo | bitvavo
+CoinDCX | coindcx
+CoinSwitch | coinswitch,coinswitchkuber
+Mudrex | mudrex
+Upbit | upbit,dunamu
+Luno | luno
+VALR | valr
+Independent Reserve | independentreserve
+CoinJar | coinjar
+Swyftx | swyftx
+BTC Markets | btcmarkets
+Coinmetro | coinmetro
+BitPay | bitpay
+Bitrefill | bitrefill
+River | river,riverfinancial
+Unchained | unchained,unchainedcapital
+Fold | fold,foldapp
+Casa | casa,keys-casa
+Coinme | coinme
+CoinFlip | coinflip
+Lightspark | lightspark
+Lightning Labs | lightninglabs,lightning-labs
+Voltage | voltage
+Breez | breez
+Fedi | fedi
+Start9 | start9
+Foundation Devices | foundationdevices
+SatoshiLabs | satoshilabs,trezor
+Gnosis | gnosis
+Argent | argent
+Rainbow | rainbow
+Zerion | zerion
+DeBank | debank
+Privy | privy
+Dynamic | dynamic-labs,dynamic
+Turnkey | turnkey
+Web3Auth | web3auth,torus
+Uphold | uphold
+ZenGo | zengo
+Fordefi | fordefi
+Dfns | dfns
+Taurus | taurus,taurushq
+Hex Trust | hextrust,hex-trust
+Komainu | komainu
+Zodia Custody | zodiacustody,zodia
+Zodia Markets | zodiamarkets
+Finoa | finoa
+Cobo | cobo
+Ceffu | ceffu
+CoinShares | coinshares
+21Shares | 21shares,twentyoneshares
+Valkyrie | valkyrie
+Pantera | pantera,panteracapital
+Polychain | polychain,polychaincapital
+Multicoin | multicoin,multicoincapital
+a16z crypto | a16zcrypto,a16z
+Electric Capital | electriccapital
+Framework Ventures | framework,frameworkventures
+Variant | variant,variantfund
+1kx | 1kx
+Placeholder | placeholder
+Haun Ventures | haun,haunventures
+CoinFund | coinfund
+Blockchain Capital | blockchaincapital
+Digital Currency Group | dcg,digitalcurrencygroup
+Cumberland | cumberland
+B2C2 | b2c2
+Flowdesk | flowdesk
+Amber Group | ambergroup,amber
+Auros | auros
+FalconX | falconx
+Hidden Road | hiddenroad
+CoinRoutes | coinroutes
+XBTO | xbto
+QCP Capital | qcp,qcpcapital
+Abra | abra
+Nexo | nexo
+Ledn | ledn
+Maple Finance | maple,maplefinance
+Goldfinch | goldfinch
+Superstate | superstate
+Securitize | securitize
+tZERO | tzero
+Provenance | provenance,provenanceblockchain
+Prometheum | prometheum
+Archax | archax
+Tether | tether
+Agora | agora,agorafinance
+Ethena | ethena
+Sky | sky,makerdao
+Frax | frax,fraxfinance
+Liquity | liquity
+Aave | aave,aavelabs
+Compound | compound,compoundlabs
+Euler | euler,eulerlabs
+Lido | lido,lidofinance
+Rocket Pool | rocketpool
+Jito | jito,jitolabs,jito-labs
+Marinade | marinade
+Karak | karak
+Babylon | babylon,babylonlabs
+Pendle | pendle
+GMX | gmx
+Drift | drift,driftlabs
+Jupiter | jupiter,jupiterexchange
+Kamino | kamino
+marginfi | marginfi,mrgn
+Helius | helius,helius-labs
+Triton | triton,tritonone
+Anza | anza
+Jump | jump,jumptrading
+Solana Labs | solanalabs,solana-labs
+Solflare | solflare
+Backpack | backpack,backpackexchange
+Tensor | tensor
+Blur | blur
+Yuga Labs | yugalabs,yuga-labs
+Dapper Labs | dapperlabs
+Sorare | sorare
+Mythical Games | mythicalgames,mythical
+Sky Mavis | skymavis
+Forte | forte
+Gala | gala,galagames
+Limit Break | limitbreak
+Treasure | treasure,treasuredao
+Web3 Foundation | web3foundation,w3f
+Emurgo | emurgo
+Cardano Foundation | cardanofoundation
+TriliTech | trilitech
+Nomadic Labs | nomadiclabs
+Algorand Foundation | algorandfoundation
+Algorand Technologies | algorand,algorandtechnologies
+Hashgraph | hashgraph,swirldslabs
+Flow Foundation | flowfoundation
+cLabs | clabs,celo
+StarkWare | starkware
+Starknet Foundation | starknetfoundation
+Taiko | taiko,taikolabs
+Mantle | mantle
+Blast | blast
+Berachain | berachain
+Monad Foundation | monad,monadfoundation
+Category Labs | categorylabs,monadlabs
+Injective | injective,injectivelabs
+Osmosis | osmosis,osmosislabs
+Dymension | dymension
+Eclipse | eclipse,eclipselabs
+Movement Labs | movementlabs,movement
+Espresso Systems | espressosystems,espresso
+Astria | astria
+AltLayer | altlayer
+Gelato | gelato,gelatonetwork
+RedStone | redstone
+API3 | api3
+Chronicle | chronicle,chroniclelabs
+Edge & Node | edgeandnode,edge-node
+StreamingFast | streamingfast
+GraphOps | graphops
+Nansen | nansen
+Arkham | arkham,arkhamintelligence
+Coin Metrics | coinmetrics
+Token Terminal | tokenterminal
+The TIE | thetie
+Amberdata | amberdata
+Elliptic | elliptic
+Merkle Science | merklescience
+Crystal Intelligence | crystal,crystalblockchain
+Scorechain | scorechain
+Notabene | notabene
+OpenZeppelin | openzeppelin
+Quantstamp | quantstamp
+Halborn | halborn
+Cantina | cantina,spearbit
+Sherlock | sherlock
+Zellic | zellic
+OtterSec | ottersec,osec
+Hacken | hacken
+Forta | forta
+Hypernative | hypernative
+Blockaid | blockaid
+Ankr | ankr
+P2P.org | p2porg,p2p
+Chorus One | chorusone,chorus-one
+Everstake | everstake
+Allnodes | allnodes
+Twinstake | twinstake
+Thirdweb | thirdweb
+Moralis | moralis
+Covalent | covalent,covalenthq
+Bitquery | bitquery
+CoinDesk | coindesk
+Decrypt | decrypt,decryptmedia
+Bankless | bankless
+Delphi Digital | delphidigital,delphi
+Cointelegraph | cointelegraph
+Kaito | kaito
+Merkle Manufactory | merklemanufactory,farcaster
+Tools for Humanity | toolsforhumanity
+Protocol Labs | protocollabs
+Arweave | arweave,ar-io
+Akash | akash,akashnetwork,overclock-labs
+Render | render,rendernetwork,otoy
+Nova Labs | novalabs,helium
+Hivemapper | hivemapper
+DIMO | dimo
+io.net | ionet,io-net
+Gensyn | gensyn
+Nillion | nillion
+Provable | provable,aleo
+Electric Coin Co | electriccoinco,ecc
+Zama | zama
+RISC Zero | risczero,risc-zero
+Polyhedra | polyhedra
+Lagrange | lagrange,lagrangelabs
+Axiom | axiom,axiom-xyz
+Brevis | brevis
+Ingonyama | ingonyama
+Fhenix | fhenix
+Inco | inco
+Aligned | aligned,alignedlayer
+Interop Labs | interoplabs,axelar
+Hyperlane | hyperlane,abacusworks
+deBridge | debridge
+Socket | socket,bungee
+Squid | squid,squidrouter
+Transak | transak
+Ramp Network | ramp,rampnetwork
+Banxa | banxa
+Mercuryo | mercuryo
+Sardine | sardine
+Bridge | bridge,bridgexyz
+Zero Hash | zerohash
+Triple-A | triple-a,tripla
+Yellow Card | yellowcard
+Kotani Pay | kotanipay
+Crossmint | crossmint
+Request Finance | requestfinance,request
+Superfluid | superfluid
+Sablier | sablier
+Coinshift | coinshift
+Koinly | koinly
+ZenLedger | zenledger
+CoinLedger | coinledger
+Lukka | lukka
+Bitwave | bitwave
+TRES Finance | tres,tresfinance
+Azuro | azuro
+Riot Platforms | riot,riotplatforms
+CleanSpark | cleanspark
+Core Scientific | corescientific
+Hut 8 | hut8
+Bitfarms | bitfarms
+IREN | iren,irisenergy
+TeraWulf | terawulf
+Cipher Mining | ciphermining
+Bitdeer | bitdeer
+Braiins | braiins
+Compass Mining | compassmining
+Chaincode Labs | chaincode,chaincodelabs
+Spiral | spiral
+Balancer Labs | balancer,balancerlabs
+Sushi | sushi
+PancakeSwap | pancakeswap
+Kyber Network | kyber,kybernetwork
+Synthetix | synthetix
+Aevo | aevo
+Derive | derive,lyra
+Paradex | paradex
+ApeX | apex,apexprotocol
+Vertex | vertex,vertexprotocol
+Bluefin | bluefin
+Hyperliquid | hyperliquid
+Velora | velora,paraswap
+Curve | curve
+Gitcoin | gitcoin
+Aragon | aragon
+Tally | tally,tallyxyz
+Karpatkey | karpatkey
+Steakhouse | steakhouse
+Chaos Labs | chaoslabs,chaos-labs
+DefiLlama | defillama,llama
+Zapper | zapper
+Rotki | rotki
+Para | para,getpara,capsule
+Portal | portal,portalhq
+AMINA Bank | amina,seba
+Custodia | custodia
+HashKey | hashkey
+OSL | osl
+Matrixport | matrixport
+Bitkub | bitkub
+Coins.ph | coinsph,coins
+PDAX | pdax
+Tokocrypto | tokocrypto
+Indodax | indodax
+ZebPay | zebpay
+Giottus | giottus
+BingX | bingx
+BitMart | bitmart
+Hashed | hashed
+Spartan Group | spartan,spartangroup
+Mask Network | masknetwork
+SafePal | safepal
+OneKey | onekey
+imToken | imtoken
+Bitkey | bitkey
+Kalshi | kalshi
+Fireblocks | fireblocks
+Circle | circle
+Ripple | ripple
+Binance | binance
+Crypto.com | cryptocom
+Robinhood | robinhood
+Block | block
+Stripe Crypto | stripe
+Anagram | anagram
+ChangeNOW | changenow
+Exponential | exponential
+Galaxy | galaxy
+EigenLayer | eigenlayer
+Movement | movementlabsxyz
+Monad | monadxyz
+Avail | avail,availproject
+Celestia Labs | celestialabs
+Espresso | espressosys
+Rialo | rialo
+Plume | plume,plumenetwork
+Fluent | fluent,fluentlabs
+MegaETH | megaeth,megalabs
+Succinct Labs | succinctlabs
+Story | story,storyprotocol,piplabs
+Initia | initia
+Berachain Foundation | berafoundation
+Kinto | kinto
+World Liberty | worldliberty
+Ondo | ondo
+Agoric | agoric
+Mina Foundation | minafoundation
+Tezos Foundation | tezosfoundation
+Ethereum Name Service | ens,enslabs
+Lens | lens,lenslabs
+Mirror | mirror
+Manifold | manifold
+Foundation | foundationapp
+Rarible | rarible
+SuperRare | superrare
+Nifty Gateway | niftygateway
+Courtyard | courtyard
+Fractal | fractal
+Pudgy Penguins | pudgypenguins,igloo
+Doodles | doodles
+Proof | proof,proofxyz
+Avalanche Foundation | avalanchefoundation
+Hedera | hedera
+XRP Ledger Foundation | xrplf
+Stacks Foundation | stacks,stacksfoundation
+Trust Machines | trustmachines
+Bitcoin Depot | bitcoindepot
+Swan | swan
+Xverse | xverse,secretkeylabs
+Leather | leather
+Magic Eden | magiceden
+Ordinals | ordinals
+Gamma | gamma
+Lombard | lombard,lombardfinance
+Solv | solv,solvprotocol
+Threshold | threshold,thresholdnetwork
+Keep | keep
+tBTC | tbtc
+Wrapped | wrapped
+Usual | usual,usualmoney
+M0 | m0,m0foundation
+Mountain Protocol | mountainprotocol
+Bastion | bastionplatforms
+Brale | brale
+Paxos | paxosglobal
+Anchorage Digital | anchoragedigital
+Bitwise | bitwise
+VanEck | vaneck
+ProShares | proshares
+# Recruiting firms that place crypto roles (tagged as recruiters)
+Blockchain Headhunter | blockchainheadhunter | recruiter
+Crypto Recruit | cryptorecruit | recruiter
+HireChain | hirechain | recruiter
+Up Top | uptop,uptopsearch | recruiter
+Plexus | plexus,plexusrs | recruiter
+Storm4 | storm4 | recruiter
+Proof of Talent | proofoftalent | recruiter
+Blockhunters | blockhunters | recruiter
+Web3 Talent | web3talent | recruiter
+Harrison Wright | harrisonwright | recruiter
+Spectrum Search | spectrumsearch | recruiter
+Nash Squared | nashsquared | recruiter
+Talent Protocol | talentprotocol

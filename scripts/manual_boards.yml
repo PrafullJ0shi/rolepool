@@ -1,0 +1,11 @@
+# Boards added by hand after reviewing probe results.
+# Mixed companies (crypto is one business line) carry filter: crypto.
+companies:
+- {name: Robinhood, ats: greenhouse, token: robinhood, kind: company, origin: manual, filter: crypto}
+- {name: Block, ats: greenhouse, token: block, kind: company, origin: manual, filter: crypto}
+- {name: Stripe, ats: greenhouse, token: stripe, kind: company, origin: manual, filter: crypto}
+- {name: Jump Trading, ats: greenhouse, token: jumptrading, kind: company, origin: manual, filter: crypto}
+- {name: a16z crypto, ats: greenhouse, token: a16z, kind: company, origin: manual, filter: crypto}
+- {name: Hut 8, ats: greenhouse, token: hut8, kind: company, origin: manual, filter: crypto}
+- {name: Coins.ph, ats: lever, token: coins, kind: company, origin: manual}
+- {name: Lightspark, ats: ashby, token: lightspark, kind: company, origin: manual}
