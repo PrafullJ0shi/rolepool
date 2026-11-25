@@ -1,5 +1,5 @@
 {
- "swept_at": "2026-11-25T18:42:38Z",
+ "swept_at": "2026-11-25T18:44:17Z",
  "ats": [
   {
    "company": "0x",
@@ -19,7 +19,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 1.11
+   "seconds": 0.73
   },
   {
    "company": "a16z crypto",
@@ -29,7 +29,7 @@
    "ok": true,
    "jobs": 21,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.15
   },
   {
    "company": "Alchemy",
@@ -39,7 +39,7 @@
    "ok": true,
    "jobs": 17,
    "error": null,
-   "seconds": 0.54
+   "seconds": 0.52
   },
   {
    "company": "Allium",
@@ -49,7 +49,7 @@
    "ok": true,
    "jobs": 14,
    "error": null,
-   "seconds": 1.03
+   "seconds": 1.02
   },
   {
    "company": "Almanak",
@@ -59,7 +59,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.05
   },
   {
    "company": "Amber Group",
@@ -69,7 +69,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 0.83
+   "seconds": 1.16
   },
   {
    "company": "Anagram",
@@ -89,7 +89,7 @@
    "ok": true,
    "jobs": 19,
    "error": null,
-   "seconds": 1.11
+   "seconds": 1.55
   },
   {
    "company": "Animoca Brands",
@@ -99,7 +99,7 @@
    "ok": true,
    "jobs": 12,
    "error": null,
-   "seconds": 1.86
+   "seconds": 1.78
   },
   {
    "company": "Aptos Foundation",
@@ -109,7 +109,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 1.91
+   "seconds": 1.87
   },
   {
    "company": "Aptos Labs",
@@ -119,7 +119,7 @@
    "ok": true,
    "jobs": 7,
    "error": null,
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "company": "Arbitrum Foundation",
@@ -129,7 +129,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 1.52
+   "seconds": 2.2
   },
   {
    "company": "Aster",
@@ -139,7 +139,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 1.76
+   "seconds": 2.45
   },
   {
    "company": "Aurora Labs",
@@ -149,7 +149,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 3.01
+   "seconds": 2.47
   },
   {
    "company": "B2C2",
@@ -169,7 +169,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 1.39
+   "seconds": 1.31
   },
   {
    "company": "Binance",
@@ -179,7 +179,7 @@
    "ok": true,
    "jobs": 232,
    "error": null,
-   "seconds": 0.63
+   "seconds": 0.29
   },
   {
    "company": "Bitfinex",
@@ -189,7 +189,7 @@
    "ok": true,
    "jobs": 24,
    "error": null,
-   "seconds": 0.52
+   "seconds": 0.23
   },
   {
    "company": "BitGo",
@@ -199,7 +199,7 @@
    "ok": true,
    "jobs": 56,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.42
   },
   {
    "company": "Bitpanda",
@@ -209,7 +209,7 @@
    "ok": true,
    "jobs": 39,
    "error": null,
-   "seconds": 0.72
+   "seconds": 0.89
   },
   {
    "company": "Bitvavo",
@@ -219,7 +219,7 @@
    "ok": true,
    "jobs": 13,
    "error": null,
-   "seconds": 1.01
+   "seconds": 1.18
   },
   {
    "company": "Block",
@@ -239,7 +239,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 1.42
+   "seconds": 1.29
   },
   {
    "company": "Blockchain.com",
@@ -249,7 +249,7 @@
    "ok": true,
    "jobs": 38,
    "error": null,
-   "seconds": 1.46
+   "seconds": 1.21
   },
   {
    "company": "Blockdaemon",
@@ -259,7 +259,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 1.49
+   "seconds": 1.29
   },
   {
    "company": "Blockstream",
@@ -269,7 +269,7 @@
    "ok": true,
    "jobs": 44,
    "error": null,
-   "seconds": 1.94
+   "seconds": 1.76
   },
   {
    "company": "Blockworks",
@@ -279,7 +279,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 2.37
+   "seconds": 2.0
   },
   {
    "company": "bloXroute Labs",
@@ -289,7 +289,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.59
+   "seconds": 1.35
   },
   {
    "company": "Boost",
@@ -299,7 +299,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 2.17
+   "seconds": 2.15
   },
   {
    "company": "Braiins",
@@ -309,7 +309,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 2.5
+   "seconds": 2.53
   },
   {
    "company": "Brale",
@@ -319,7 +319,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 2.91
+   "seconds": 3.0
   },
   {
    "company": "Brave",
@@ -329,7 +329,7 @@
    "ok": true,
    "jobs": 11,
    "error": null,
-   "seconds": 0.51
+   "seconds": 0.48
   },
   {
    "company": "BVNK",
@@ -339,7 +339,7 @@
    "ok": true,
    "jobs": 45,
    "error": null,
-   "seconds": 0.67
+   "seconds": 0.7
   },
   {
    "company": "Bybit",
@@ -349,7 +349,7 @@
    "ok": true,
    "jobs": 165,
    "error": null,
-   "seconds": 1.31
+   "seconds": 1.15
   },
   {
    "company": "Casa",
@@ -359,7 +359,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 1.47
+   "seconds": 1.18
   },
   {
    "company": "Celestia",
@@ -369,7 +369,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.36
+   "seconds": 0.59
   },
   {
    "company": "Centrifuge",
@@ -379,7 +379,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 0.47
+   "seconds": 0.48
   },
   {
    "company": "CertiK",
@@ -389,7 +389,7 @@
    "ok": true,
    "jobs": 28,
    "error": null,
-   "seconds": 1.25
+   "seconds": 1.57
   },
   {
    "company": "Chainalysis",
@@ -399,7 +399,7 @@
    "ok": true,
    "jobs": 50,
    "error": null,
-   "seconds": 2.03
+   "seconds": 1.9
   },
   {
    "company": "Chaincode Labs",
@@ -409,7 +409,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 0.98
+   "seconds": 1.0
   },
   {
    "company": "Coinbase",
@@ -419,7 +419,7 @@
    "ok": true,
    "jobs": 245,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.49
   },
   {
    "company": "Coinflow",
@@ -429,7 +429,7 @@
    "ok": true,
    "jobs": 18,
    "error": null,
-   "seconds": 1.99
+   "seconds": 2.0
   },
   {
    "company": "CoinGecko",
@@ -439,7 +439,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.8
   },
   {
    "company": "CoinList",
@@ -449,7 +449,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "company": "CoinMarketCap",
@@ -459,7 +459,7 @@
    "ok": true,
    "jobs": 8,
    "error": null,
-   "seconds": 0.57
+   "seconds": 0.54
   },
   {
    "company": "Coins.ph",
@@ -469,7 +469,7 @@
    "ok": true,
    "jobs": 91,
    "error": null,
-   "seconds": 1.85
+   "seconds": 1.11
   },
   {
    "company": "CoinsPaid",
@@ -479,7 +479,7 @@
    "ok": true,
    "jobs": 32,
    "error": null,
-   "seconds": 0.69
+   "seconds": 0.46
   },
   {
    "company": "CoinTracker",
@@ -489,7 +489,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 1.87
+   "seconds": 1.51
   },
   {
    "company": "Conduit",
@@ -499,7 +499,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 2.0
+   "seconds": 1.93
   },
   {
    "company": "Consensys",
@@ -509,7 +509,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 2.38
+   "seconds": 2.4
   },
   {
    "company": "Copper",
@@ -519,7 +519,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.31
+   "seconds": 0.36
   },
   {
    "company": "Cosmos Labs",
@@ -529,7 +529,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 0.8
+   "seconds": 0.74
   },
   {
    "company": "CoW DAO",
@@ -539,7 +539,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 2.44
+   "seconds": 2.49
   },
   {
    "company": "Cryptio",
@@ -549,7 +549,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 2.87
+   "seconds": 2.82
   },
   {
    "company": "Crypto Finance",
@@ -559,7 +559,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 0.03
+   "seconds": 0.05
   },
   {
    "company": "Crypto.com",
@@ -569,7 +569,7 @@
    "ok": true,
    "jobs": 93,
    "error": null,
-   "seconds": 0.26
+   "seconds": 0.35
   },
   {
    "company": "Decentraland",
@@ -579,7 +579,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.96
+   "seconds": 0.63
   },
   {
    "company": "DFINITY",
@@ -589,7 +589,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.32
+   "seconds": 0.49
   },
   {
    "company": "Digital Currency Group",
@@ -599,7 +599,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 0.65
+   "seconds": 0.99
   },
   {
    "company": "Distributed Crafts",
@@ -639,7 +639,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 0.62
+   "seconds": 1.01
   },
   {
    "company": "Eco",
@@ -649,7 +649,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 1.04
+   "seconds": 1.18
   },
   {
    "company": "Eigen Labs",
@@ -659,7 +659,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 2.88
+   "seconds": 2.81
   },
   {
    "company": "Ellipsis Labs",
@@ -679,7 +679,7 @@
    "ok": true,
    "jobs": 24,
    "error": null,
-   "seconds": 3.39
+   "seconds": 3.32
   },
   {
    "company": "ether.fi",
@@ -699,7 +699,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 3.87
+   "seconds": 3.82
   },
   {
    "company": "FalconX",
@@ -709,7 +709,7 @@
    "ok": true,
    "jobs": 14,
    "error": null,
-   "seconds": 0.14
+   "seconds": 0.19
   },
   {
    "company": "Figment",
@@ -719,7 +719,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.49
   },
   {
    "company": "Figure",
@@ -729,7 +729,7 @@
    "ok": true,
    "jobs": 32,
    "error": null,
-   "seconds": 0.66
+   "seconds": 0.71
   },
   {
    "company": "Filecoin Foundation",
@@ -739,7 +739,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 0.99
+   "seconds": 1.0
   },
   {
    "company": "Fireblocks",
@@ -749,7 +749,7 @@
    "ok": true,
    "jobs": 37,
    "error": null,
-   "seconds": 1.15
+   "seconds": 1.19
   },
   {
    "company": "Flashbots",
@@ -759,7 +759,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 2.85
+   "seconds": 2.79
   },
   {
    "company": "Flowdesk",
@@ -769,7 +769,7 @@
    "ok": true,
    "jobs": 11,
    "error": null,
-   "seconds": 1.13
+   "seconds": 1.19
   },
   {
    "company": "Foundry",
@@ -789,7 +789,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.06
+   "seconds": 0.05
   },
   {
    "company": "Fuel Labs",
@@ -809,7 +809,7 @@
    "ok": true,
    "jobs": 56,
    "error": null,
-   "seconds": 1.54
+   "seconds": 1.59
   },
   {
    "company": "Gauntlet",
@@ -819,7 +819,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 0.56
+   "seconds": 0.45
   },
   {
    "company": "Gemini",
@@ -829,7 +829,7 @@
    "ok": true,
    "jobs": 22,
    "error": null,
-   "seconds": 1.63
+   "seconds": 1.7
   },
   {
    "company": "Gensyn",
@@ -839,7 +839,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 2.0
+   "seconds": 2.03
   },
   {
    "company": "Goldsky",
@@ -849,7 +849,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 1.78
+   "seconds": 1.81
   },
   {
    "company": "Grayscale",
@@ -859,7 +859,7 @@
    "ok": true,
    "jobs": 5,
    "error": null,
-   "seconds": 2.12
+   "seconds": 2.18
   },
   {
    "company": "GSR",
@@ -869,7 +869,7 @@
    "ok": true,
    "jobs": 9,
    "error": null,
-   "seconds": 2.51
+   "seconds": 2.5
   },
   {
    "company": "Harmony",
@@ -879,7 +879,7 @@
    "ok": true,
    "jobs": 9,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.12
   },
   {
    "company": "Hashgraph",
@@ -889,7 +889,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 1.4
+   "seconds": 1.38
   },
   {
    "company": "Helius",
@@ -899,7 +899,7 @@
    "ok": true,
    "jobs": 9,
    "error": null,
-   "seconds": 1.82
+   "seconds": 1.77
   },
   {
    "company": "Hex Trust",
@@ -909,7 +909,7 @@
    "ok": true,
    "jobs": 36,
    "error": null,
-   "seconds": 0.12
+   "seconds": 0.09
   },
   {
    "company": "Hiro",
@@ -919,7 +919,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 2.0
+   "seconds": 2.1
   },
   {
    "company": "Hut 8",
@@ -929,7 +929,7 @@
    "ok": true,
    "jobs": 47,
    "error": null,
-   "seconds": 2.53
+   "seconds": 2.52
   },
   {
    "company": "IFT",
@@ -939,7 +939,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 2.63
+   "seconds": 2.69
   },
   {
    "company": "Immutable",
@@ -949,7 +949,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.7
   },
   {
    "company": "Impossible Cloud",
@@ -959,7 +959,7 @@
    "ok": true,
    "jobs": 9,
    "error": null,
-   "seconds": 0.51
+   "seconds": 1.57
   },
   {
    "company": "Injective",
@@ -969,7 +969,7 @@
    "ok": true,
    "jobs": 9,
    "error": null,
-   "seconds": 1.01
+   "seconds": 0.82
   },
   {
    "company": "Input Output (IOG)",
@@ -989,7 +989,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 1.33
+   "seconds": 1.08
   },
   {
    "company": "Jump Crypto",
@@ -999,7 +999,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 2.39
+   "seconds": 2.18
   },
   {
    "company": "Jump Trading",
@@ -1009,7 +1009,7 @@
    "ok": true,
    "jobs": 82,
    "error": null,
-   "seconds": 2.67
+   "seconds": 2.53
   },
   {
    "company": "Kaiko",
@@ -1019,7 +1019,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 0.45
+   "seconds": 0.43
   },
   {
    "company": "Kamino",
@@ -1029,7 +1029,7 @@
    "ok": true,
    "jobs": 7,
    "error": null,
-   "seconds": 1.0
+   "seconds": 0.82
   },
   {
    "company": "Keyrock",
@@ -1039,7 +1039,7 @@
    "ok": true,
    "jobs": 11,
    "error": null,
-   "seconds": 1.42
+   "seconds": 1.07
   },
   {
    "company": "Kiln",
@@ -1049,7 +1049,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 1.87
+   "seconds": 1.49
   },
   {
    "company": "Kraken",
@@ -1059,7 +1059,7 @@
    "ok": true,
    "jobs": 91,
    "error": null,
-   "seconds": 2.04
+   "seconds": 1.94
   },
   {
    "company": "LayerZero Labs",
@@ -1069,7 +1069,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 1.95
+   "seconds": 1.97
   },
   {
    "company": "Ledger",
@@ -1079,7 +1079,7 @@
    "ok": true,
    "jobs": 18,
    "error": null,
-   "seconds": 1.99
+   "seconds": 2.0
   },
   {
    "company": "LI.FI",
@@ -1089,7 +1089,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 2.39
+   "seconds": 2.31
   },
   {
    "company": "Lightspark",
@@ -1109,7 +1109,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.51
   },
   {
    "company": "Luxor Technology",
@@ -1119,7 +1119,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 2.51
+   "seconds": 2.5
   },
   {
    "company": "Magic Eden",
@@ -1129,7 +1129,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 2.82
+   "seconds": 2.79
   },
   {
    "company": "Magic Labs",
@@ -1139,7 +1139,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 1.08
+   "seconds": 1.18
   },
   {
    "company": "Matter Labs",
@@ -1149,7 +1149,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 2.88
+   "seconds": 2.82
   },
   {
    "company": "Merkle Science",
@@ -1169,7 +1169,7 @@
    "ok": true,
    "jobs": 23,
    "error": null,
-   "seconds": 1.02
+   "seconds": 1.09
   },
   {
    "company": "Messari",
@@ -1179,7 +1179,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.49
   },
   {
    "company": "MoonPay",
@@ -1189,7 +1189,7 @@
    "ok": true,
    "jobs": 21,
    "error": null,
-   "seconds": 0.12
+   "seconds": 0.11
   },
   {
    "company": "Morpho",
@@ -1209,7 +1209,7 @@
    "ok": true,
    "jobs": 9,
    "error": null,
-   "seconds": 2.87
+   "seconds": 2.82
   },
   {
    "company": "NEAR Foundation",
@@ -1219,7 +1219,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 1.12
+   "seconds": 1.18
   },
   {
    "company": "Nethermind",
@@ -1229,7 +1229,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 2.86
+   "seconds": 2.8
   },
   {
    "company": "Nimbus",
@@ -1239,7 +1239,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 1.12
+   "seconds": 1.19
   },
   {
    "company": "NinjaTrader",
@@ -1279,7 +1279,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 2.54
+   "seconds": 2.52
   },
   {
    "company": "Numeus",
@@ -1289,7 +1289,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.49
   },
   {
    "company": "Obol",
@@ -1299,7 +1299,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.35
+   "seconds": 0.11
   },
   {
    "company": "Offchain Labs",
@@ -1309,7 +1309,7 @@
    "ok": true,
    "jobs": 11,
    "error": null,
-   "seconds": 0.51
+   "seconds": 1.05
   },
   {
    "company": "OKX",
@@ -1319,7 +1319,7 @@
    "ok": true,
    "jobs": 390,
    "error": null,
-   "seconds": 1.82
+   "seconds": 1.94
   },
   {
    "company": "Ondo Finance",
@@ -1329,7 +1329,7 @@
    "ok": true,
    "jobs": 20,
    "error": null,
-   "seconds": 1.7
+   "seconds": 1.69
   },
   {
    "company": "OP Labs",
@@ -1339,7 +1339,7 @@
    "ok": true,
    "jobs": 5,
    "error": null,
-   "seconds": 1.87
+   "seconds": 1.82
   },
   {
    "company": "OpenSea",
@@ -1349,7 +1349,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 2.36
+   "seconds": 2.0
   },
   {
    "company": "OpenZeppelin",
@@ -1359,7 +1359,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 1.63
+   "seconds": 1.51
   },
   {
    "company": "Orca",
@@ -1369,7 +1369,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 2.38
+   "seconds": 2.32
   },
   {
    "company": "Orderly",
@@ -1379,7 +1379,7 @@
    "ok": true,
    "jobs": 14,
    "error": null,
-   "seconds": 1.64
+   "seconds": 1.68
   },
   {
    "company": "Paradigm",
@@ -1389,7 +1389,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 1.95
+   "seconds": 1.98
   },
   {
    "company": "Parity Technologies",
@@ -1399,7 +1399,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 2.31
+   "seconds": 2.38
   },
   {
    "company": "Paxos",
@@ -1409,7 +1409,7 @@
    "ok": true,
    "jobs": 24,
    "error": null,
-   "seconds": 2.82
+   "seconds": 2.81
   },
   {
    "company": "Paxos Labs",
@@ -1429,7 +1429,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 3.37
+   "seconds": 3.32
   },
   {
    "company": "Phantom",
@@ -1439,7 +1439,7 @@
    "ok": true,
    "jobs": 16,
    "error": null,
-   "seconds": 3.51
+   "seconds": 3.49
   },
   {
    "company": "Plasma",
@@ -1449,7 +1449,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 3.87
+   "seconds": 3.82
   },
   {
    "company": "Polygon Labs",
@@ -1459,7 +1459,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 3.99
+   "seconds": 4.0
   },
   {
    "company": "Polymarket",
@@ -1469,7 +1469,7 @@
    "ok": true,
    "jobs": 33,
    "error": null,
-   "seconds": 4.02
+   "seconds": 4.01
   },
   {
    "company": "Provable",
@@ -1479,7 +1479,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 3.99
+   "seconds": 4.0
   },
   {
    "company": "Pyth Network",
@@ -1489,7 +1489,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 3.98
+   "seconds": 4.0
   },
   {
    "company": "QuickNode",
@@ -1499,7 +1499,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 3.99
+   "seconds": 4.0
   },
   {
    "company": "Rain",
@@ -1509,7 +1509,7 @@
    "ok": true,
    "jobs": 47,
    "error": null,
-   "seconds": 4.03
+   "seconds": 4.0
   },
   {
    "company": "Recall",
@@ -1529,7 +1529,7 @@
    "ok": true,
    "jobs": 109,
    "error": null,
-   "seconds": 0.63
+   "seconds": 0.59
   },
   {
    "company": "Risk Labs",
@@ -1549,7 +1549,7 @@
    "ok": true,
    "jobs": 15,
    "error": null,
-   "seconds": 0.38
+   "seconds": 0.42
   },
   {
    "company": "Robinhood",
@@ -1559,7 +1559,7 @@
    "ok": true,
    "jobs": 162,
    "error": null,
-   "seconds": 0.71
+   "seconds": 0.65
   },
   {
    "company": "RWA.xyz",
@@ -1569,7 +1569,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 3.46
+   "seconds": 3.47
   },
   {
    "company": "Sahara AI",
@@ -1579,7 +1579,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 3.48
+   "seconds": 3.5
   },
   {
    "company": "SatoshiLabs",
@@ -1589,7 +1589,7 @@
    "ok": true,
    "jobs": 5,
    "error": null,
-   "seconds": 3.78
+   "seconds": 3.85
   },
   {
    "company": "Securitize",
@@ -1599,7 +1599,7 @@
    "ok": true,
    "jobs": 8,
    "error": null,
-   "seconds": 0.05
+   "seconds": 0.03
   },
   {
    "company": "Sei Labs",
@@ -1609,7 +1609,7 @@
    "ok": true,
    "jobs": 8,
    "error": null,
-   "seconds": 4.01
+   "seconds": 3.97
   },
   {
    "company": "Serotonin",
@@ -1619,7 +1619,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 0.34
+   "seconds": 0.35
   },
   {
    "company": "Sky Mavis",
@@ -1629,7 +1629,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 3.67
+   "seconds": 3.7
   },
   {
    "company": "Socket",
@@ -1659,7 +1659,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 3.97
+   "seconds": 4.0
   },
   {
    "company": "SSV Labs",
@@ -1679,7 +1679,7 @@
    "ok": true,
    "jobs": 17,
    "error": null,
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "company": "Starknet Foundation",
@@ -1699,7 +1699,7 @@
    "ok": true,
    "jobs": 18,
    "error": null,
-   "seconds": 4.01
+   "seconds": 4.0
   },
   {
    "company": "Strike",
@@ -1709,7 +1709,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 0.03
+   "seconds": 0.08
   },
   {
    "company": "Stripe",
@@ -1719,7 +1719,7 @@
    "ok": true,
    "jobs": 771,
    "error": null,
-   "seconds": 1.06
+   "seconds": 0.8
   },
   {
    "company": "Succinct",
@@ -1739,7 +1739,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 3.47
+   "seconds": 3.62
   },
   {
    "company": "Superstate",
@@ -1759,7 +1759,7 @@
    "ok": true,
    "jobs": 9,
    "error": null,
-   "seconds": 0.51
+   "seconds": 0.67
   },
   {
    "company": "Swissquote",
@@ -1769,7 +1769,7 @@
    "ok": true,
    "jobs": 32,
    "error": null,
-   "seconds": 0.55
+   "seconds": 0.47
   },
   {
    "company": "Symbiotic",
@@ -1779,7 +1779,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 3.35
+   "seconds": 3.24
   },
   {
    "company": "Syndica",
@@ -1789,7 +1789,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 3.52
+   "seconds": 3.5
   },
   {
    "company": "Talos",
@@ -1799,7 +1799,7 @@
    "ok": true,
    "jobs": 20,
    "error": null,
-   "seconds": 3.95
+   "seconds": 3.97
   },
   {
    "company": "TaxBit",
@@ -1809,7 +1809,7 @@
    "ok": true,
    "jobs": 9,
    "error": null,
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "company": "Tenderly",
@@ -1819,7 +1819,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 3.96
+   "seconds": 3.97
   },
   {
    "company": "Tether",
@@ -1839,7 +1839,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.13
+   "seconds": 0.43
   },
   {
    "company": "Toku",
@@ -1849,7 +1849,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 0.51
+   "seconds": 0.44
   },
   {
    "company": "TriliTech",
@@ -1859,7 +1859,7 @@
    "ok": true,
    "jobs": 4,
    "error": null,
-   "seconds": 3.36
+   "seconds": 3.07
   },
   {
    "company": "TRM Labs",
@@ -1869,7 +1869,7 @@
    "ok": true,
    "jobs": 114,
    "error": null,
-   "seconds": 3.6
+   "seconds": 3.51
   },
   {
    "company": "Trust Wallet",
@@ -1879,7 +1879,7 @@
    "ok": true,
    "jobs": 12,
    "error": null,
-   "seconds": 3.86
+   "seconds": 3.91
   },
   {
    "company": "Turnkey",
@@ -1889,7 +1889,7 @@
    "ok": true,
    "jobs": 13,
    "error": null,
-   "seconds": 3.98
+   "seconds": 4.0
   },
   {
    "company": "Uniswap Labs",
@@ -1899,7 +1899,7 @@
    "ok": true,
    "jobs": 8,
    "error": null,
-   "seconds": 3.97
+   "seconds": 4.0
   },
   {
    "company": "WalletConnect",
@@ -1909,7 +1909,7 @@
    "ok": true,
    "jobs": 0,
    "error": null,
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "company": "Walrus",
@@ -1919,7 +1919,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 3.92
+   "seconds": 3.95
   },
   {
    "company": "Windranger",
@@ -1929,7 +1929,7 @@
    "ok": true,
    "jobs": 7,
    "error": null,
-   "seconds": 4.0
+   "seconds": 4.01
   },
   {
    "company": "Wintermute",
@@ -1939,7 +1939,7 @@
    "ok": true,
    "jobs": 18,
    "error": null,
-   "seconds": 0.14
+   "seconds": 0.09
   },
   {
    "company": "Wormhole Labs",
@@ -1949,7 +1949,7 @@
    "ok": true,
    "jobs": 6,
    "error": null,
-   "seconds": 3.86
+   "seconds": 3.91
   },
   {
    "company": "Xapo Bank",
@@ -1959,7 +1959,7 @@
    "ok": true,
    "jobs": 3,
    "error": null,
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "company": "Zerion",
@@ -1969,7 +1969,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "company": "ZetaChain",
@@ -1979,7 +1979,7 @@
    "ok": true,
    "jobs": 1,
    "error": null,
-   "seconds": 0.41
+   "seconds": 0.4
   },
   {
    "company": "Zodl",
@@ -1989,7 +1989,7 @@
    "ok": true,
    "jobs": 2,
    "error": null,
-   "seconds": 3.47
+   "seconds": 3.49
   }
  ],
  "boards": [
