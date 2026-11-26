@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "company": "Polygon Labs",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-26T04:18:25Z",
+  "board": "https://jobs.ashbyhq.com/polygon-labs",
+  "why": "H=67.1, open=6, new 7d=0, closed 7d=0, days since a new role=7"
+ },
+ {
+  "company": "Paxos",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-26T04:18:25Z",
+  "board": "https://jobs.ashbyhq.com/paxos",
+  "why": "H=82.5, open=24, new 7d=1, closed 7d=1, days since a new role=1"
+ },
+ {
+  "company": "Mesh",
+  "from": "STEADY",
+  "to": "HIRING",
+  "at": "2026-11-26T04:18:25Z",
+  "board": "https://job-boards.greenhouse.io/mesh",
+  "why": "H=61.7, open=22, new 7d=3, closed 7d=0, days since a new role=1"
+ },
+ {
+  "company": "Flowdesk",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-26T04:18:25Z",
+  "board": "https://job-boards.greenhouse.io/flowdesk",
+  "why": "H=73.5, open=11, new 7d=1, closed 7d=0, days since a new role=3"
+ },
+ {
+  "company": "Brale",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-26T04:18:25Z",
+  "board": "https://jobs.ashbyhq.com/brale",
+  "why": "H=64.9, open=2, new 7d=1, closed 7d=0, days since a new role=2"
+ },
+ {
+  "company": "Anagram",
+  "from": "STEADY",
+  "to": "COOLING",
+  "at": "2026-11-26T04:18:25Z",
+  "board": "https://jobs.ashbyhq.com/anagram",
+  "why": "H=-58.9, open=1, new 7d=1, closed 7d=1, days since a new role=6"
+ },
+ {
+  "company": "a16z crypto",
+  "from": "STEADY",
+  "to": "COOLING",
+  "at": "2026-11-26T04:18:25Z",
+  "board": "https://job-boards.greenhouse.io/a16z",
+  "why": "H=-57.9, open=3, new 7d=0, closed 7d=1, days since a new role=7"
+ }
+]
