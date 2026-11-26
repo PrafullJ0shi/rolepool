@@ -232,6 +232,23 @@ Rebuild the board list with `python -m scripts.discover` (plus `python scripts/t
 - Rules are English-first.
 - Momentum and freeze states sharpen as daily history accumulates; the first two weeks lean on the cross-section.
 
+## V2 roadmap
+
+Planned for V2, not shipped. Each item names who it is for and, where it fits, how it can pay for the running costs. Two rules carry over from V1: only sources whose terms allow automated reading, and no paid placement that changes a score, a state or the order of the Trends table.
+
+1. **Employer-submitted feeds.** Firms on Workday, Rippling or custom careers sites can opt in by publishing a small JSON feed or schema.org `JobPosting` markup and adding it to `data/companies.yml` through a pull request. *Users:* coverage of employers the sweep cannot read today. *Developers:* a documented feed spec that any careers site can emit.
+2. **Verified employer pages.** An employer proves control of its domain with a DNS TXT record and can then add facts the postings leave out: interview steps, typical reply time, payroll currency, token or equity policy. *Users:* fewer surprises before applying. *Revenue:* the claim is free; a clearly labelled featured slot on the Board is paid.
+3. **Token and equity detection.** Read token grants, vesting terms, equity and "paid in stablecoins" options from posting text, as new filterable fields next to salary. *Users:* compare total pay, not only base salary. *Developers:* new fields in `jobs.json` with the same tests-first rule.
+4. **Skills demand index.** Extract named skills (Solidity, Rust, Move, Cairo, Go, zero-knowledge, MEV, compliance regimes) and track weekly demand and published pay per skill. *Users:* what to learn next, backed by counts. *Developers:* a skills taxonomy file anyone can extend.
+5. **Hiring data API and bulk files.** Company-level opens, closes, momentum and state as daily files and a read API, mapped to crypto identifiers (token ticker, CoinGecko id, DefiLlama slug) that general hiring-data vendors do not carry. Includes an MCP server so AI assistants can query roles with their limits attached. *Developers and analysts:* a stable, versioned schema. *Revenue:* the daily snapshot stays free under an open licence; full history, higher rate limits and bulk exports are a paid plan.
+6. **Hiring against the market.** Plot each company's momentum next to its token price, protocol TVL and announced funding rounds from public sources, to show who keeps hiring through a drawdown and who freezes first. *Users and investors:* context in one view. *Revenue:* part of the paid data plan when exported.
+7. **Personal alerts.** Email, Telegram and webhook delivery for any saved filter, with double opt-in and one-click unsubscribe. GitHub issue alerts stay. *Users:* new matching roles without visiting the site. *Revenue:* a daily digest is free; instant alerts and many filters are a small paid tier.
+8. **Private CV match.** Paste a CV and get roles ranked by fit with plain reasons, computed entirely in the browser; nothing is uploaded. *Users:* a shortlist in seconds without handing data to anyone.
+9. **Reply-rate signal.** Applicants can anonymously report whether an application got a reply, combined with the ghost score into a per-company response figure, shown only once enough reports exist. *Users:* avoid employers that never answer. *Employers:* a reason to close stale postings.
+10. **Ecosystem boards and widgets.** Tag roles by ecosystem (a chain, a DAO, a portfolio) and offer embeddable "jobs in this ecosystem" and "jobs at this company" widgets. *Communities and employers:* a maintained board without running one. *Revenue:* foundations and funds sponsor a white-label ecosystem board; the data behind it stays the same public data.
+
+**Order.** V2.0: items 1, 3, 4, 7 and 8. V2.1: items 2, 5, 6, 9 and 10.
+
 ## Credits
 
 - Inspired by [crypto-jobs-fyi/crawler](https://github.com/crypto-jobs-fyi/crawler) (Apache 2.0). Its public company list seeded the board tokens; no code was copied. This project is independent code under MIT.
