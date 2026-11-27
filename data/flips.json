@@ -1,5 +1,69 @@
 [
  {
+  "company": "Securitize",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-27T04:22:05Z",
+  "board": "https://job-boards.greenhouse.io/securitize",
+  "why": "H=77.8, open=8, new 7d=1, closed 7d=0, days since a new role=4"
+ },
+ {
+  "company": "Matter Labs",
+  "from": "STEADY",
+  "to": "HIRING",
+  "at": "2026-11-27T04:22:05Z",
+  "board": "https://jobs.ashbyhq.com/matter-labs",
+  "why": "H=96.1, open=4, new 7d=2, closed 7d=0, days since a new role=1"
+ },
+ {
+  "company": "GSR",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-27T04:22:05Z",
+  "board": "https://job-boards.greenhouse.io/gsrmarkets",
+  "why": "H=54.1, open=8, new 7d=1, closed 7d=1, days since a new role=3"
+ },
+ {
+  "company": "Galaxy",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-27T04:22:05Z",
+  "board": "https://job-boards.greenhouse.io/galaxydigitalservices",
+  "why": "H=88.7, open=50, new 7d=1, closed 7d=3, days since a new role=4"
+ },
+ {
+  "company": "Elliptic",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-27T04:22:05Z",
+  "board": "https://jobs.ashbyhq.com/elliptic",
+  "why": "H=74.1, open=23, new 7d=0, closed 7d=0, days since a new role=7"
+ },
+ {
+  "company": "Blockstream",
+  "from": "STEADY",
+  "to": "COOLING",
+  "at": "2026-11-27T04:22:05Z",
+  "board": "https://jobs.ashbyhq.com/blockstream",
+  "why": "H=-27.3, open=39, new 7d=0, closed 7d=0, days since a new role=30"
+ },
+ {
+  "company": "Blockchain.com",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-27T04:22:05Z",
+  "board": "https://job-boards.greenhouse.io/blockchain",
+  "why": "H=80.1, open=37, new 7d=0, closed 7d=0, days since a new role=7"
+ },
+ {
+  "company": "1inch",
+  "from": "STEADY",
+  "to": "COOLING",
+  "at": "2026-11-27T04:22:05Z",
+  "board": "https://jobs.lever.co/1inch",
+  "why": "H=-94.3, open=3, new 7d=0, closed 7d=1, days since a new role=11"
+ },
+ {
   "company": "Polygon Labs",
   "from": "HIRING",
   "to": "STEADY",
