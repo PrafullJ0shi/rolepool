@@ -1,5 +1,77 @@
 [
  {
+  "company": "Wintermute",
+  "from": "STEADY",
+  "to": "COOLING",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://jobs.lever.co/wintermute-trading",
+  "why": "H=-78.3, open=18, new 7d=0, closed 7d=1, days since a new role=40"
+ },
+ {
+  "company": "SatoshiLabs",
+  "from": "HIRING",
+  "to": "STEADY",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://jobs.ashbyhq.com/satoshilabs",
+  "why": "H=-19.3, open=4, new 7d=2, closed 7d=1, days since a new role=3"
+ },
+ {
+  "company": "Helius",
+  "from": "HIRING",
+  "to": "COOLING",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://jobs.ashbyhq.com/helius",
+  "why": "H=-42.3, open=7, new 7d=2, closed 7d=2, days since a new role=4"
+ },
+ {
+  "company": "GSR",
+  "from": "STEADY",
+  "to": "HIRING",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://job-boards.greenhouse.io/gsrmarkets",
+  "why": "H=74.3, open=8, new 7d=2, closed 7d=1, days since a new role=0"
+ },
+ {
+  "company": "ether.fi",
+  "from": "STEADY",
+  "to": "COOLING",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://jobs.ashbyhq.com/ether.fi",
+  "why": "H=-46.1, open=12, new 7d=0, closed 7d=1, days since a new role=19"
+ },
+ {
+  "company": "Ellipsis Labs",
+  "from": "STEADY",
+  "to": "COOLING",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://jobs.ashbyhq.com/ellipsislabs",
+  "why": "H=-26.0, open=12, new 7d=0, closed 7d=0, days since a new role=30"
+ },
+ {
+  "company": "Blockstream",
+  "from": "COOLING",
+  "to": "CHECK-BOARD",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://jobs.ashbyhq.com/blockstream",
+  "why": "H=-18.5, open=39, new 7d=0, closed 7d=0, days since a new role=31"
+ },
+ {
+  "company": "Blockchain.com",
+  "from": "STEADY",
+  "to": "HIRING",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://job-boards.greenhouse.io/blockchain",
+  "why": "H=72.6, open=36, new 7d=2, closed 7d=3, days since a new role=1"
+ },
+ {
+  "company": "Bitfinex",
+  "from": "STEADY",
+  "to": "COOLING",
+  "at": "2026-11-28T04:10:19Z",
+  "board": "https://bitfinex.recruitee.com",
+  "why": "H=-84.2, open=22, new 7d=0, closed 7d=1, days since a new role=30"
+ },
+ {
   "company": "Securitize",
   "from": "HIRING",
   "to": "STEADY",
